@@ -1,0 +1,232 @@
+body, html {
+    margin:0;
+}
+
+.top-bar {
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13.5px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.logo {
+    width:150px;
+    height:100%;
+    padding: 15px 0 0 10px;
+    float:left;
+    font-family: "Product Sans",Futura,Arial,sans-serif;
+    font-weight:500;
+    font-size: 38px;
+    margin-right:-5px;
+    margin-bottom: 30px;
+}
+
+.search-bar
+{
+    display:inline-block;
+}
+
+.search-bar input {
+    margin-top: 15px;
+    width:600px;
+    height:45px;
+    border-radius:1px #eee;
+    box-shadow: 1px 2px 3px #ccc, -1px 2px 3px #ccc;
+}
+
+.google-bar {
+    float: right;
+    padding: 10px;
+}
+
+.tab-bar {
+    display:inline-block;
+    padding: 25px 5px 0;
+    color: #777;
+    margin-bottom:0;
+}
+
+.tab-bar ul {
+    margin:0;
+    margin-left:-45px;
+    display:inline-block;
+}
+
+.tab-bar li {
+/*    border: 1px solid black;*/
+    height: 30px;
+}
+
+.tab-bar a {
+    color:#888;
+    text-decoration: none;
+    padding: 0 6px;
+}
+
+.tab-bar a:hover {
+    color:#333;
+    text-decoration: none;
+}
+
+.right {
+    position:relative;
+    left:60px;
+}
+
+#active  {
+    font-weight: 600;
+    border-bottom: 3px solid blue;
+}
+#active a, #active a:hover {
+    color: blue;
+}
+
+.tools:hover {
+    border: 1px solid transparent;
+}
+
+.tools:hover {
+    border: 1px solid #999;
+}
+
+.small-squares {
+    background-color:black;
+    width:6px;
+    height:6px;
+    border: solid white 2px;
+    outline: black dashed 6px;
+}
+
+.red-circle {
+    width: 17px;
+    height: 17px;
+    background-color: red;
+    text-align:center;
+    border-radius:100%;
+    color: white;
+}
+
+.profile-pic {
+    position:relative;
+    bottom: 6px;
+    width: 28px;
+    height: 28px;
+    text-align:center;
+    background-color: yellow;
+    border-radius:100%;
+}
+
+.main {
+    padding-top:20px;
+    margin-left:170px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+}
+
+.result-count {
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.result {
+    width: 600px;
+    margin: 20px 0;
+}
+
+.result-title {
+    font-size: 18px;
+}
+
+.result-url {
+    font-size: 14px;
+}
+
+time {
+    color: #666;
+    display: inline;
+}
+
+.description {
+    display: inline;
+}
+
+.related-searches {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.related-searches table {
+    padding: 20px 0;
+}
+
+.related-searches td {
+    width: 285px;
+}
+
+.related-searches a {
+    font-size: 14px;
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.logo-small {
+    height:100%;
+    font-family: "Product Sans",Futura,Arial,sans-serif;
+    font-weight:500;
+    font-size: 38px;
+    margin-left:320px;
+}
+
+.page-links {
+    font-family: Arial;
+    margin-left:350px;
+    font-size: 12px;
+}
+
+.page-links a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.active-link {
+    color: black;
+}
+
+.page-links a:hover {
+    text-decoration: underline;
+}
+
+.bottom-bar {
+    background: #eee;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size:12px;
+    color: gray;
+}
+
+.bottom-bar ul {
+    margin-left:130px;
+}
+
+.bottom-bar li {
+    padding: 0 10px;
+    margin-left: 0;
+    display: inline-block;
+}
+
+.google-name {
+    font-weight: 400px;
+    font-size:140%;
+    color:black;
+}
